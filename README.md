@@ -36,7 +36,7 @@ data/neonate/
       label.txt
 ```
 
-3. Download YOLO5face repo git clone
+3. Download YOLO5face repo
 ```
 https://github.com/deepcam-cn/yolov5-face.git 
 ``` 
