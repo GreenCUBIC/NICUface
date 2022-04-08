@@ -50,9 +50,14 @@ https://github.com/GreenCUBIC/NICUface.git
 
 6. Train model
 ```
-python3 train_nicuface_y5f.py --data data/neonate.yaml --cfg models/nicuface_y5f.yaml --weights weights/nicuface_y5f.pt --epochs 10 --hyp data/hyp.nicuface_y5f.yaml
+python3 train_nicuface_y5f.py --data data/neonate.yaml --cfg models/nicuface_y5f.yaml --weights weights/nicuface_y5f.pt --hyp data/hyp.nicuface_y5f.yaml
 ```
 
+## Testing
+After training, the resulting weights are saved under ```runs/train/exp1/last.pt``` and can be used in inference as:
+``` 
+test_nicuface_y5f.py --runs/train/exp1/last.pt 
+```
 
 ## NICUface Evaluation
 ![detection_results](images/detection_results.png)
