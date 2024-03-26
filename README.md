@@ -50,7 +50,7 @@ https://github.com/GreenCUBIC/NICUface.git
 
 6. Train model
 ```
-python3 train_nicuface_y5f.py --data data/neonate.yaml --cfg models/nicuface_y5f.yaml --weights weights/nicuface_y5f.pt --hyp data/hyp.nicuface_y5f.yaml
+python3 train_nicuface_y5f.py --data data/neonate.yaml --cfg models/model_nicuface_y5f.yaml --weights weights/nicuface_y5f.pt --hyp data/hyp.nicuface_y5f.yaml
 ```
 
 ## Testing
