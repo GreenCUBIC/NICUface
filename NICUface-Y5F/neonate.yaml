@@ -1,0 +1,20 @@
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC/
+# Train command: python train.py --data voc.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /VOC
+#     /yolov5
+
+
+# download command/URL (optional)
+download: bash data/scripts/get_voc.sh
+
+train: /content/yolov5-face/data/neonate/train
+val: /content/yolov5-face/data/neonate/val
+test: /content/yolov5-face/data/neonate/test
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'face']
