@@ -63,6 +63,12 @@ test_nicuface_y5f.py --runs/train/exp1/last.pt
 ![detection_results](images/detection_results.png)
 
 ## Citation
+Souley Dosso Y, Kyrollos D, Greenwood K, Harrold J, Green JR, 2022, "NICUface: Robust Neonatal Face Detection in Complex NICU Scenes," *IEEE Access*, 10:62893-62909, doi:10.1109/ACCESS.2022.3181167. 
+
+Link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9791241
 
 ## Contact
+- Yasmina Souley Dosso <yasminasouleydosso@cmail.carleton.ca>
+- Daniel Kyrollos <DanielKyrollos@cmail.carleton.ca>
+- James Green <jrgreen@sce.carleton.ca>
 
